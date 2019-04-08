@@ -1,0 +1,23 @@
+{
+  "name": "tulaWebCup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-sha/tulaWebCup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victor-sha/tulaWebCup/issues"
+  },
+  "homepage": "https://github.com/victor-sha/tulaWebCup#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
